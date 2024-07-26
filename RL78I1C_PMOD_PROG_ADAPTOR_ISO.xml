@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\a5126135\Documents\EMS\RL78\Adaptors\RL78I1C_PMOD_PROG_ADAPTOR_ISO\RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch</source>
+    <date>25/07/2024 14:25:37</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RL78/I1C Programming Adaptor - Isolated</title>
+        <company>Renesas Electronics Europe</company>
+        <rev>0</rev>
+        <date>2024-02-13</date>
+        <source>RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch</source>
+        <comment number="1" value="Author: Louis Wray"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">1276-1935-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="0_Capacitor" part="C_0603_100n" description="Unpolarized capacitor"/>
+      <property name="Digikey p/n" value="1276-1935-1-ND"/>
+      <property name="Manufacturer p/n" value="CL10B104KB8NNWC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fa3ac61-a5a0-4856-ba15-9bc04a52a2de</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">1276-1935-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="0_Capacitor" part="C_0603_100n" description="Unpolarized capacitor"/>
+      <property name="Digikey p/n" value="1276-1935-1-ND"/>
+      <property name="Manufacturer p/n" value="CL10B104KB8NNWC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cbd78b6-e01b-4866-b579-b2df06baa3a0</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">1276-1935-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="0_Capacitor" part="C_0603_100n" description="Unpolarized capacitor"/>
+      <property name="Digikey p/n" value="1276-1935-1-ND"/>
+      <property name="Manufacturer p/n" value="CL10B104KB8NNWC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65235664-c3b8-4fbd-b92c-c8e98a604064</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">1276-1935-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="0_Capacitor" part="C_0603_100n" description="Unpolarized capacitor"/>
+      <property name="Digikey p/n" value="1276-1935-1-ND"/>
+      <property name="Manufacturer p/n" value="CL10B104KB8NNWC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2f8d615-d3ed-4acf-9886-fe645722cc3c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">1276-1935-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="0_Capacitor" part="C_0603_100n" description="Unpolarized capacitor"/>
+      <property name="Digikey p/n" value="1276-1935-1-ND"/>
+      <property name="Manufacturer p/n" value="CL10B104KB8NNWC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc99b8ea-53c9-4e42-9e1e-91ac3df60e03</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">1276-1935-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
+      </fields>
+      <libsource lib="0_Capacitor" part="C_0603_100n" description="Unpolarized capacitor"/>
+      <property name="Digikey p/n" value="1276-1935-1-ND"/>
+      <property name="Manufacturer p/n" value="CL10B104KB8NNWC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b8a3204-fb01-4cb8-b19c-069caeeefd74</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>CDBA340L-G</value>
+      <footprint>0_Common:D_SMA</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</datasheet>
+      <fields>
+        <field name="Digikey p/n">641-1258-1-ND</field>
+        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Manufacturer p/n">CDBA340L-G</field>
+      </fields>
+      <libsource lib="0_Diode" part="CDBA340L-G" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Digikey p/n" value="641-1258-1-ND"/>
+      <property name="Manufacturer p/n" value="CDBA340L-G"/>
+      <property name="Manufacturer" value="Comchip Technology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c39e1472-ee13-492f-b563-d646f89dd953</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>CDBA340L-G</value>
+      <footprint>0_Common:D_SMA</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</datasheet>
+      <fields>
+        <field name="Digikey p/n">641-1258-1-ND</field>
+        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Manufacturer p/n">CDBA340L-G</field>
+      </fields>
+      <libsource lib="0_Diode" part="CDBA340L-G" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Digikey p/n" value="641-1258-1-ND"/>
+      <property name="Manufacturer p/n" value="CDBA340L-G"/>
+      <property name="Manufacturer" value="Comchip Technology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbfddc1a-3038-4679-8a97-d1698de519eb</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>CDBA340L-G</value>
+      <footprint>0_Common:D_SMA</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</datasheet>
+      <fields>
+        <field name="Digikey p/n">641-1258-1-ND</field>
+        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Manufacturer p/n">CDBA340L-G</field>
+      </fields>
+      <libsource lib="0_Diode" part="CDBA340L-G" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Digikey p/n" value="641-1258-1-ND"/>
+      <property name="Manufacturer p/n" value="CDBA340L-G"/>
+      <property name="Manufacturer" value="Comchip Technology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>018bef4e-552b-415a-95b4-2d0f0b1a609d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>E2 Lite 14P</value>
+      <footprint>0_Connector:E2_Lite_14P</footprint>
+      <fields>
+        <field name="Digikey p/n">MHC14K-ND</field>
+        <field name="Manufacturer">3M</field>
+        <field name="Manufacturer p/n">N2514-6002-RB</field>
+      </fields>
+      <libsource lib="0_Connector" part="E2_Lite_14p" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey p/n" value="MHC14K-ND"/>
+      <property name="Manufacturer p/n" value="N2514-6002-RB"/>
+      <property name="Manufacturer" value="3M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b76e770-cd32-40fb-b280-32885640855d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>RL78/I1C 5P</value>
+      <footprint>0_Connector:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey p/n">732-61300511821-ND</field>
+        <field name="Manufacturer">Wurth Elektronic</field>
+        <field name="Manufacturer p/n">61300511821</field>
+      </fields>
+      <libsource lib="0_Connector" part="Conn_01x05_2.54" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digikey p/n" value="732-61300511821-ND"/>
+      <property name="Manufacturer p/n" value="61300511821"/>
+      <property name="Manufacturer" value="Wurth Elektronic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4f1cb3a-f100-4f8d-b238-411755d3968b</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3906-7-F</value>
+      <footprint>0_Common:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Digikey p/n">MMBT3906-FDICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer p/n">MMBT3906-7-F</field>
+      </fields>
+      <libsource lib="0_Transistor" part="MMBT3906-7-F" description="0.2A Ic, 40V Vce, PNP Transistor, SOT-23"/>
+      <property name="Digikey p/n" value="MMBT3906-FDICT-ND"/>
+      <property name="Manufacturer p/n" value="MMBT3906-7-F"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, PNP Transistor, SOT-23"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3f597a0-17b7-4998-b6f3-45b5995493bf</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-4.70KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603FR-074K7L</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_4k7" description="Resistor"/>
+      <property name="Digikey p/n" value="311-4.70KHRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603FR-074K7L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6801aa7-983a-49f1-96d7-ee1c2aaecc81</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>270R</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-270GRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603JR-07270RL</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_270R" description="Resistor"/>
+      <property name="Digikey p/n" value="311-270GRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603JR-07270RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93a4242c-4d58-4bea-b145-c66cb0848e25</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>270R</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-270GRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603JR-07270RL</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_270R" description="Resistor"/>
+      <property name="Digikey p/n" value="311-270GRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603JR-07270RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>897942e4-25f8-466c-9188-7dcc9ad996c3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-4.70KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603FR-074K7L</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_4k7" description="Resistor"/>
+      <property name="Digikey p/n" value="311-4.70KHRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603FR-074K7L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>817ea44f-7a9f-4d61-9d5e-f77ae8f49e6f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>270R</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-270GRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603JR-07270RL</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_270R" description="Resistor"/>
+      <property name="Digikey p/n" value="311-270GRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603JR-07270RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82a9e172-f4e7-468d-8ea9-48be7f8b3486</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4k7</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-4.70KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603FR-074K7L</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_4k7" description="Resistor"/>
+      <property name="Digikey p/n" value="311-4.70KHRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603FR-074K7L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0083a476-bbfd-4e59-a6c4-96da46c4e0e6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4k7</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-4.70KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603FR-074K7L</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_4k7" description="Resistor"/>
+      <property name="Digikey p/n" value="311-4.70KHRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603FR-074K7L"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>568f0f67-3af7-487b-9621-a594b87404a9</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>270R</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-270GRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603JR-07270RL</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_270R" description="Resistor"/>
+      <property name="Digikey p/n" value="311-270GRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603JR-07270RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77a10912-c2cc-4281-9a3b-3a2b9e38c802</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>RV1S9060A</value>
+      <footprint>0_OptoIsolator:RV1S9060A</footprint>
+      <fields>
+        <field name="Digikey p/n">559-RV1S9060ACCSP-10YC#KC0CT-ND</field>
+        <field name="Manufacturer">Renesas</field>
+        <field name="Manufacturer p/n">RV1S9060ACCSP-10YC#KC0</field>
+      </fields>
+      <libsource lib="0_OptoIsolator" part="RV1S9060A" description=""/>
+      <property name="Digikey p/n" value="559-RV1S9060ACCSP-10YC#KC0CT-ND"/>
+      <property name="Manufacturer p/n" value="RV1S9060ACCSP-10YC#KC0"/>
+      <property name="Manufacturer" value="Renesas"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7a19e19-f8d6-44ad-9d3b-7611b2c2abba</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>RV1S9060A</value>
+      <footprint>0_OptoIsolator:RV1S9060A</footprint>
+      <fields>
+        <field name="Digikey p/n">559-RV1S9060ACCSP-10YC#KC0CT-ND</field>
+        <field name="Manufacturer">Renesas</field>
+        <field name="Manufacturer p/n">RV1S9060ACCSP-10YC#KC0</field>
+      </fields>
+      <libsource lib="0_OptoIsolator" part="RV1S9060A" description=""/>
+      <property name="Digikey p/n" value="559-RV1S9060ACCSP-10YC#KC0CT-ND"/>
+      <property name="Manufacturer p/n" value="RV1S9060ACCSP-10YC#KC0"/>
+      <property name="Manufacturer" value="Renesas"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4c563cb-dd9b-4988-9e16-f07153c9df53</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>RV1S9060A</value>
+      <footprint>0_OptoIsolator:RV1S9060A</footprint>
+      <fields>
+        <field name="Digikey p/n">559-RV1S9060ACCSP-10YC#KC0CT-ND</field>
+        <field name="Manufacturer">Renesas</field>
+        <field name="Manufacturer p/n">RV1S9060ACCSP-10YC#KC0</field>
+      </fields>
+      <libsource lib="0_OptoIsolator" part="RV1S9060A" description=""/>
+      <property name="Digikey p/n" value="559-RV1S9060ACCSP-10YC#KC0CT-ND"/>
+      <property name="Manufacturer p/n" value="RV1S9060ACCSP-10YC#KC0"/>
+      <property name="Manufacturer" value="Renesas"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eef928c7-b130-427c-b195-4ca0a5d208c3</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RV1S9060A</value>
+      <footprint>0_OptoIsolator:RV1S9060A</footprint>
+      <fields>
+        <field name="Digikey p/n">559-RV1S9060ACCSP-10YC#KC0CT-ND</field>
+        <field name="Manufacturer">Renesas</field>
+        <field name="Manufacturer p/n">RV1S9060ACCSP-10YC#KC0</field>
+      </fields>
+      <libsource lib="0_OptoIsolator" part="RV1S9060A" description=""/>
+      <property name="Digikey p/n" value="559-RV1S9060ACCSP-10YC#KC0CT-ND"/>
+      <property name="Manufacturer p/n" value="RV1S9060ACCSP-10YC#KC0"/>
+      <property name="Manufacturer" value="Renesas"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92fdac8b-d43a-4e31-b7e2-fd610d384a4b</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC1G17</value>
+      <footprint>0_Common:SOT-23-5_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey p/n">296-11933-1-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer p/n">SN74LVC1G17DBVR</field>
+      </fields>
+      <libsource lib="0_Buffers" part="SN74LVC1G17" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
+      <property name="Digikey p/n" value="296-11933-1-ND"/>
+      <property name="Manufacturer p/n" value="SN74LVC1G17DBVR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Single Gate Buff Schmitt LVC CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f633e394-cba4-451b-aa5f-9de5e94b3b96</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>SN74LVC1G17</value>
+      <footprint>0_Common:SOT-23-5_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey p/n">296-11933-1-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer p/n">SN74LVC1G17DBVR</field>
+      </fields>
+      <libsource lib="0_Buffers" part="SN74LVC1G17" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
+      <property name="Digikey p/n" value="296-11933-1-ND"/>
+      <property name="Manufacturer p/n" value="SN74LVC1G17DBVR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Single Gate Buff Schmitt LVC CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8189d646-1ca8-4514-900d-d9ce5a1314ab</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0_Buffers" part="SN74LVC1G17">
+      <description>Single Schmitt Buffer Gate, Low-Voltage CMOS</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>Texas?R-PDSO-G5?DCK*</fp>
+        <fp>Texas?R-PDSO-N5?DRL*</fp>
+        <fp>Texas?X2SON*0.8x0.8mm*P0.48mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G17</field>
+        <field name="Footprint">0_Common:SOT-23-5_HandSoldering</field>
+        <field name="Digikey p/n">296-11933-1-ND</field>
+        <field name="Manufacturer p/n">SN74LVC1G17DBVR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="free"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Capacitor" part="C_0603_100n">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n</field>
+        <field name="Footprint">0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Digikey p/n">1276-1935-1-ND</field>
+        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Connector" part="Conn_01x05_2.54">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">RL78/I1C 5P</field>
+        <field name="Footprint">0_Connector:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Digikey p/n">732-61300511821-ND</field>
+        <field name="Manufacturer p/n">61300511821</field>
+        <field name="Manufacturer">Wurth Elektronic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Connector" part="E2_Lite_14p">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">E2 Lite 14P</field>
+        <field name="Footprint">0_Connector:E2_Lite_14P</field>
+        <field name="Datasheet">~</field>
+        <field name="Digikey p/n">MHC14K-ND</field>
+        <field name="Manufacturer p/n">N2514-6002-RB</field>
+        <field name="Manufacturer">3M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Diode" part="CDBA340L-G">
+      <description>40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CDBA340L-G</field>
+        <field name="Footprint">0_Common:D_SMA_Handsoldering</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</field>
+        <field name="Digikey p/n">641-1258-1-ND</field>
+        <field name="Manufacturer p/n">CDBA340L-G</field>
+        <field name="Manufacturer">Comchip Technology</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_OptoIsolator" part="RV1S9060A">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">RV1S9060A</field>
+        <field name="Footprint">0_OptoIsolator:RV1S9060A</field>
+        <field name="Digikey p/n">559-RV1S9060ACCSP-10YC#KC0CT-ND</field>
+        <field name="Manufacturer p/n">RV1S9060ACCSP-10YC#KC0</field>
+        <field name="Manufacturer">Renesas</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="Vo" type="passive"/>
+        <pin num="5" name="Vdd" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Resistor" part="R_0603_270R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">270R</field>
+        <field name="Footprint">0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Digikey p/n">311-270GRCT-ND</field>
+        <field name="Manufacturer p/n">RC0603JR-07270RL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Resistor" part="R_0603_4k7">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">4k7</field>
+        <field name="Footprint">0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Digikey p/n">311-4.70KHRCT-ND</field>
+        <field name="Manufacturer p/n">RC0603FR-074K7L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Transistor" part="MMBT3906-7-F">
+      <description>0.2A Ic, 40V Vce, PNP Transistor, SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3906-7-F</field>
+        <field name="Footprint">0_Common:SOT-23_Handsoldering</field>
+        <field name="Digikey p/n">MMBT3906-FDICT-ND</field>
+        <field name="Manufacturer p/n">MMBT3906-7-F</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0_Buffers">
+      <uri>C:\Users\a5126135\Documents\KiCad\Libraries\0_Buffers.kicad_sym</uri>
+    </library>
+    <library logical="0_Capacitor">
+      <uri>C:/Users/a5126135/Documents/KiCad/Libraries/0_Capacitor.kicad_sym</uri>
+    </library>
+    <library logical="0_Connector">
+      <uri>C:/Users/a5126135/Documents/KiCad/Libraries/0_Connector.kicad_sym</uri>
+    </library>
+    <library logical="0_Diode">
+      <uri>C:/Users/a5126135/Documents/KiCad/Libraries/0_Diode.kicad_sym</uri>
+    </library>
+    <library logical="0_OptoIsolator">
+      <uri>C:/Users/a5126135/Documents/KiCad/Libraries/0_OptoIsolator.kicad_sym</uri>
+    </library>
+    <library logical="0_Resistor">
+      <uri>C:/Users/a5126135/Documents/KiCad/Libraries/0_Resistor.kicad_sym</uri>
+    </library>
+    <library logical="0_Transistor">
+      <uri>C:/Users/a5126135/Documents/KiCad/Libraries/0_Transistor.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/TOOL0">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="2" name="/TOOL0_MCU">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="3" name="/~{RESET_IN_MCU}">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/~{RESET_IN}">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Vo" pintype="passive"/>
+    </net>
+    <net code="5" name="/~{RESET_OUT_MCU}">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="6" name="/~{RESET_OUT}">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="GNDD">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="Vo" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="4" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U6" pin="4" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(Q1-E)">
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(U1-A)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(U2-A)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(U3-Vo)">
+      <node ref="U3" pin="4" pinfunction="Vo" pintype="passive"/>
+      <node ref="U6" pin="2" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(U4-Vo)">
+      <node ref="U4" pin="4" pinfunction="Vo" pintype="passive"/>
+      <node ref="U5" pin="2" pintype="input"/>
+    </net>
+    <net code="17" name="VCC">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="Vdd" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="Vdd" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="18" name="VCOM">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="Vdd" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="Vdd" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="19" name="unconnected-(J1-Pin_1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J1-Pin_3-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J1-Pin_4-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J1-Pin_7-Pad7)">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-Pin_11-Pad11)">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U5-NC-Pad1)">
+      <node ref="U5" pin="1" pinfunction="NC" pintype="free"/>
+    </net>
+    <net code="25" name="unconnected-(U6-NC-Pad1)">
+      <node ref="U6" pin="1" pinfunction="NC" pintype="free"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "0_Capacitor")(type "KiCad")(uri "C:/Users/a5126135/Documents/KiCad/Libraries/0_Capacitor.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Connector")(type "KiCad")(uri "C:/Users/a5126135/Documents/KiCad/Libraries/0_Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Diode")(type "KiCad")(uri "C:/Users/a5126135/Documents/KiCad/Libraries/0_Diode.kicad_sym")(options "")(descr ""))
+  (lib (name "0_OptoIsolator")(type "KiCad")(uri "C:/Users/a5126135/Documents/KiCad/Libraries/0_OptoIsolator.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Resistor")(type "KiCad")(uri "C:/Users/a5126135/Documents/KiCad/Libraries/0_Resistor.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Transistor")(type "KiCad")(uri "C:/Users/a5126135/Documents/KiCad/Libraries/0_Transistor.kicad_sym")(options "")(descr ""))
+)
