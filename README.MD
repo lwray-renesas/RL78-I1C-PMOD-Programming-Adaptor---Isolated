@@ -14,7 +14,7 @@ Gerbers, Schematics and BoM for the latest revision are included in the reposito
 ### Dependencies
 
 * KiCad 7.0
-* Component Libraries (TODO: Link Here).
+* [Component Libraries](https://github.com/lwray-renesas/RL78-I1C-PMOD-Programming-Adaptor-KiCad-Libraries)
 
 ## License
 
