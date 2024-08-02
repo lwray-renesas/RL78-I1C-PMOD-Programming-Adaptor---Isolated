@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\a5126135\Documents\EMS\RL78\Adaptors\RL78I1C_PMOD_PROG_ADAPTOR_ISO\RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch</source>
-    <date>25/07/2024 14:25:37</date>
+    <date>02/08/2024 12:07:14</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -100,103 +100,62 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a2f8d615-d3ed-4acf-9886-fe645722cc3c</tstamps>
     </comp>
-    <comp ref="C5">
-      <value>100n</value>
-      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="Digikey p/n">1276-1935-1-ND</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
-      </fields>
-      <libsource lib="0_Capacitor" part="C_0603_100n" description="Unpolarized capacitor"/>
-      <property name="Digikey p/n" value="1276-1935-1-ND"/>
-      <property name="Manufacturer p/n" value="CL10B104KB8NNWC"/>
-      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cc99b8ea-53c9-4e42-9e1e-91ac3df60e03</tstamps>
-    </comp>
-    <comp ref="C6">
-      <value>100n</value>
-      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="Digikey p/n">1276-1935-1-ND</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Manufacturer p/n">CL10B104KB8NNWC</field>
-      </fields>
-      <libsource lib="0_Capacitor" part="C_0603_100n" description="Unpolarized capacitor"/>
-      <property name="Digikey p/n" value="1276-1935-1-ND"/>
-      <property name="Manufacturer p/n" value="CL10B104KB8NNWC"/>
-      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0b8a3204-fb01-4cb8-b19c-069caeeefd74</tstamps>
-    </comp>
     <comp ref="D1">
-      <value>CDBA340L-G</value>
-      <footprint>0_Common:D_SMA</footprint>
-      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</datasheet>
+      <value>BAT43W-TP</value>
+      <footprint>0_Common:D_SOD-123</footprint>
       <fields>
-        <field name="Digikey p/n">641-1258-1-ND</field>
-        <field name="Manufacturer">Comchip Technology</field>
-        <field name="Manufacturer p/n">CDBA340L-G</field>
+        <field name="Digikey p/n">BAT43WTPMSCT-ND</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer p/n">BAT43W-TP</field>
       </fields>
-      <libsource lib="0_Diode" part="CDBA340L-G" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
-      <property name="Digikey p/n" value="641-1258-1-ND"/>
-      <property name="Manufacturer p/n" value="CDBA340L-G"/>
-      <property name="Manufacturer" value="Comchip Technology"/>
+      <libsource lib="0_Diode" part="BAT43W-TP" description="60V 15mA Schottky diode, DO-35"/>
+      <property name="Digikey p/n" value="BAT43WTPMSCT-ND"/>
+      <property name="Manufacturer p/n" value="BAT43W-TP"/>
+      <property name="Manufacturer" value="Micro Commercial Co"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="ki_description" value="60V 15mA Schottky diode, DO-35"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c39e1472-ee13-492f-b563-d646f89dd953</tstamps>
+      <tstamps>d8402ccb-5959-4753-bbb8-3e2fec02564c</tstamps>
     </comp>
     <comp ref="D2">
-      <value>CDBA340L-G</value>
-      <footprint>0_Common:D_SMA</footprint>
-      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</datasheet>
+      <value>BAT43W-TP</value>
+      <footprint>0_Common:D_SOD-123</footprint>
       <fields>
-        <field name="Digikey p/n">641-1258-1-ND</field>
-        <field name="Manufacturer">Comchip Technology</field>
-        <field name="Manufacturer p/n">CDBA340L-G</field>
+        <field name="Digikey p/n">BAT43WTPMSCT-ND</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer p/n">BAT43W-TP</field>
       </fields>
-      <libsource lib="0_Diode" part="CDBA340L-G" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
-      <property name="Digikey p/n" value="641-1258-1-ND"/>
-      <property name="Manufacturer p/n" value="CDBA340L-G"/>
-      <property name="Manufacturer" value="Comchip Technology"/>
+      <libsource lib="0_Diode" part="BAT43W-TP" description="60V 15mA Schottky diode, DO-35"/>
+      <property name="Digikey p/n" value="BAT43WTPMSCT-ND"/>
+      <property name="Manufacturer p/n" value="BAT43W-TP"/>
+      <property name="Manufacturer" value="Micro Commercial Co"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="ki_description" value="60V 15mA Schottky diode, DO-35"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bbfddc1a-3038-4679-8a97-d1698de519eb</tstamps>
+      <tstamps>12ed497a-f588-4a4b-9589-dd8dba651e09</tstamps>
     </comp>
     <comp ref="D3">
-      <value>CDBA340L-G</value>
-      <footprint>0_Common:D_SMA</footprint>
-      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</datasheet>
+      <value>BAT43W-TP</value>
+      <footprint>0_Common:D_SOD-123</footprint>
       <fields>
-        <field name="Digikey p/n">641-1258-1-ND</field>
-        <field name="Manufacturer">Comchip Technology</field>
-        <field name="Manufacturer p/n">CDBA340L-G</field>
+        <field name="Digikey p/n">BAT43WTPMSCT-ND</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer p/n">BAT43W-TP</field>
       </fields>
-      <libsource lib="0_Diode" part="CDBA340L-G" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
-      <property name="Digikey p/n" value="641-1258-1-ND"/>
-      <property name="Manufacturer p/n" value="CDBA340L-G"/>
-      <property name="Manufacturer" value="Comchip Technology"/>
+      <libsource lib="0_Diode" part="BAT43W-TP" description="60V 15mA Schottky diode, DO-35"/>
+      <property name="Digikey p/n" value="BAT43WTPMSCT-ND"/>
+      <property name="Manufacturer p/n" value="BAT43W-TP"/>
+      <property name="Manufacturer" value="Micro Commercial Co"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="ki_description" value="60V 15mA Schottky diode, DO-35"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>018bef4e-552b-415a-95b4-2d0f0b1a609d</tstamps>
+      <tstamps>d4a993c9-df5c-4ce7-9c73-7a91939010c6</tstamps>
     </comp>
     <comp ref="J1">
       <value>E2 Lite 14P</value>
@@ -237,23 +196,99 @@
       <tstamps>d4f1cb3a-f100-4f8d-b238-411755d3968b</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>MMBT3906-7-F</value>
-      <footprint>0_Common:SOT-23_Handsoldering</footprint>
+      <value>BSS84</value>
+      <footprint>0_Common:SOT-23</footprint>
       <fields>
-        <field name="Digikey p/n">MMBT3906-FDICT-ND</field>
-        <field name="Manufacturer">Diodes Incorporated</field>
-        <field name="Manufacturer p/n">MMBT3906-7-F</field>
+        <field name="Digikey p/n">BSS84CT-ND</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Manufacturer p/n">BSS84</field>
       </fields>
-      <libsource lib="0_Transistor" part="MMBT3906-7-F" description="0.2A Ic, 40V Vce, PNP Transistor, SOT-23"/>
-      <property name="Digikey p/n" value="MMBT3906-FDICT-ND"/>
-      <property name="Manufacturer p/n" value="MMBT3906-7-F"/>
-      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <libsource lib="0_Transistor" part="BSS84" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Digikey p/n" value="BSS84CT-ND"/>
+      <property name="Manufacturer p/n" value="BSS84"/>
+      <property name="Manufacturer" value="onsemi"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="0.2A Ic, 40V Vce, PNP Transistor, SOT-23"/>
-      <property name="ki_keywords" value="PNP Transistor"/>
+      <property name="ki_description" value="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e3f597a0-17b7-4998-b6f3-45b5995493bf</tstamps>
+      <tstamps>f32758be-e31d-4bb8-bed1-bb066657f0c1</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS84</value>
+      <footprint>0_Common:SOT-23</footprint>
+      <fields>
+        <field name="Digikey p/n">BSS84CT-ND</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Manufacturer p/n">BSS84</field>
+      </fields>
+      <libsource lib="0_Transistor" part="BSS84" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Digikey p/n" value="BSS84CT-ND"/>
+      <property name="Manufacturer p/n" value="BSS84"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dabd8fe-1d67-46a1-9449-f9cc11c4ae84</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS123</value>
+      <footprint>0_Common:SOT-23</footprint>
+      <fields>
+        <field name="Digikey p/n">BSS123NCT-ND</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Manufacturer p/n">BSS123</field>
+      </fields>
+      <libsource lib="0_Transistor" part="BSS123" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Digikey p/n" value="BSS123NCT-ND"/>
+      <property name="Manufacturer p/n" value="BSS123"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4898d7d-ac52-4049-a9d8-e48a08d8834f</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS84</value>
+      <footprint>0_Common:SOT-23</footprint>
+      <fields>
+        <field name="Digikey p/n">BSS84CT-ND</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Manufacturer p/n">BSS84</field>
+      </fields>
+      <libsource lib="0_Transistor" part="BSS84" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Digikey p/n" value="BSS84CT-ND"/>
+      <property name="Manufacturer p/n" value="BSS84"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c10a456-2bd7-4a43-b24d-254f18e40205</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS123</value>
+      <footprint>0_Common:SOT-23</footprint>
+      <fields>
+        <field name="Digikey p/n">BSS123NCT-ND</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Manufacturer p/n">BSS123</field>
+      </fields>
+      <libsource lib="0_Transistor" part="BSS123" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Digikey p/n" value="BSS123NCT-ND"/>
+      <property name="Manufacturer p/n" value="BSS123"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a180abc7-32fb-432e-ae88-b8d6a8f670a7</tstamps>
     </comp>
     <comp ref="R1">
       <value>4k7</value>
@@ -372,6 +407,25 @@
       <tstamps>0083a476-bbfd-4e59-a6c4-96da46c4e0e6</tstamps>
     </comp>
     <comp ref="R7">
+      <value>220R</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">13-RC0603JR-13220RLCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603JR-13220RL</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_220R" description="Resistor"/>
+      <property name="Digikey p/n" value="13-RC0603JR-13220RLCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603JR-13220RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da694f76-376e-41bb-8109-222eecc5a92b</tstamps>
+    </comp>
+    <comp ref="R8">
       <value>4k7</value>
       <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -390,7 +444,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>568f0f67-3af7-487b-9621-a594b87404a9</tstamps>
     </comp>
-    <comp ref="R8">
+    <comp ref="R9">
       <value>270R</value>
       <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -408,6 +462,25 @@
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>77a10912-c2cc-4281-9a3b-3a2b9e38c802</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>220R</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">13-RC0603JR-13220RLCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603JR-13220RL</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_220R" description="Resistor"/>
+      <property name="Digikey p/n" value="13-RC0603JR-13220RLCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603JR-13220RL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ad49f0f-ac01-4f50-9fe7-ad8a15d2d89b</tstamps>
     </comp>
     <comp ref="U1">
       <value>RV1S9060A</value>
@@ -477,70 +550,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>92fdac8b-d43a-4e31-b7e2-fd610d384a4b</tstamps>
     </comp>
-    <comp ref="U5">
-      <value>SN74LVC1G17</value>
-      <footprint>0_Common:SOT-23-5_HandSoldering</footprint>
-      <fields>
-        <field name="Digikey p/n">296-11933-1-ND</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer p/n">SN74LVC1G17DBVR</field>
-      </fields>
-      <libsource lib="0_Buffers" part="SN74LVC1G17" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
-      <property name="Digikey p/n" value="296-11933-1-ND"/>
-      <property name="Manufacturer p/n" value="SN74LVC1G17DBVR"/>
-      <property name="Manufacturer" value="Texas Instruments"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
-      <property name="ki_keywords" value="Single Gate Buff Schmitt LVC CMOS"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f633e394-cba4-451b-aa5f-9de5e94b3b96</tstamps>
-    </comp>
-    <comp ref="U6">
-      <value>SN74LVC1G17</value>
-      <footprint>0_Common:SOT-23-5_HandSoldering</footprint>
-      <fields>
-        <field name="Digikey p/n">296-11933-1-ND</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Manufacturer p/n">SN74LVC1G17DBVR</field>
-      </fields>
-      <libsource lib="0_Buffers" part="SN74LVC1G17" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
-      <property name="Digikey p/n" value="296-11933-1-ND"/>
-      <property name="Manufacturer p/n" value="SN74LVC1G17DBVR"/>
-      <property name="Manufacturer" value="Texas Instruments"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
-      <property name="ki_keywords" value="Single Gate Buff Schmitt LVC CMOS"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8189d646-1ca8-4514-900d-d9ce5a1314ab</tstamps>
-    </comp>
   </components>
   <libparts>
-    <libpart lib="0_Buffers" part="SN74LVC1G17">
-      <description>Single Schmitt Buffer Gate, Low-Voltage CMOS</description>
-      <footprints>
-        <fp>SOT?23*</fp>
-        <fp>Texas?R-PDSO-G5?DCK*</fp>
-        <fp>Texas?R-PDSO-N5?DRL*</fp>
-        <fp>Texas?X2SON*0.8x0.8mm*P0.48mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">SN74LVC1G17</field>
-        <field name="Footprint">0_Common:SOT-23-5_HandSoldering</field>
-        <field name="Digikey p/n">296-11933-1-ND</field>
-        <field name="Manufacturer p/n">SN74LVC1G17DBVR</field>
-        <field name="Manufacturer">Texas Instruments</field>
-      </fields>
-      <pins>
-        <pin num="1" name="NC" type="free"/>
-        <pin num="2" name="" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="" type="output"/>
-        <pin num="5" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="0_Capacitor" part="C_0603_100n">
       <description>Unpolarized capacitor</description>
       <docs>~</docs>
@@ -616,20 +627,18 @@
         <pin num="14" name="Pin_14" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="0_Diode" part="CDBA340L-G">
-      <description>40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
-      <docs>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</docs>
+    <libpart lib="0_Diode" part="BAT43W-TP">
+      <description>60V 15mA Schottky diode, DO-35</description>
       <footprints>
-        <fp>D*SMA*</fp>
+        <fp>D*DO?35*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">CDBA340L-G</field>
-        <field name="Footprint">0_Common:D_SMA_Handsoldering</field>
-        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2443/CDBA320L-G%20~%20CDBA340L-G.pdf</field>
-        <field name="Digikey p/n">641-1258-1-ND</field>
-        <field name="Manufacturer p/n">CDBA340L-G</field>
-        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Value">BAT43W-TP</field>
+        <field name="Footprint">0_Common:D_SOD-123</field>
+        <field name="Digikey p/n">BAT43WTPMSCT-ND</field>
+        <field name="Manufacturer p/n">BAT43W-TP</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -651,6 +660,26 @@
         <pin num="3" name="GND" type="passive"/>
         <pin num="4" name="Vo" type="passive"/>
         <pin num="5" name="Vdd" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Resistor" part="R_0603_220R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">220R</field>
+        <field name="Footprint">0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Digikey p/n">13-RC0603JR-13220RLCT-ND</field>
+        <field name="Manufacturer p/n">RC0603JR-13220RL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="0_Resistor" part="R_0603_270R">
@@ -693,30 +722,46 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="0_Transistor" part="MMBT3906-7-F">
-      <description>0.2A Ic, 40V Vce, PNP Transistor, SOT-23</description>
+    <libpart lib="0_Transistor" part="BSS123">
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">MMBT3906-7-F</field>
-        <field name="Footprint">0_Common:SOT-23_Handsoldering</field>
-        <field name="Digikey p/n">MMBT3906-FDICT-ND</field>
-        <field name="Manufacturer p/n">MMBT3906-7-F</field>
-        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Value">BSS123</field>
+        <field name="Footprint">0_Common:SOT-23</field>
+        <field name="Digikey p/n">BSS123NCT-ND</field>
+        <field name="Manufacturer p/n">BSS123</field>
+        <field name="Manufacturer">onsemi</field>
       </fields>
       <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0_Transistor" part="BSS84">
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS84</field>
+        <field name="Footprint">0_Common:SOT-23</field>
+        <field name="Digikey p/n">BSS84CT-ND</field>
+        <field name="Manufacturer p/n">BSS84</field>
+        <field name="Manufacturer">onsemi</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="0_Buffers">
-      <uri>C:\Users\a5126135\Documents\KiCad\Libraries\0_Buffers.kicad_sym</uri>
-    </library>
     <library logical="0_Capacitor">
       <uri>C:/Users/a5126135/Documents/KiCad/Libraries/0_Capacitor.kicad_sym</uri>
     </library>
@@ -740,7 +785,7 @@
     <net code="1" name="/TOOL0">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="C" pintype="passive"/>
     </net>
     <net code="2" name="/TOOL0_MCU">
@@ -759,7 +804,8 @@
     </net>
     <net code="5" name="/~{RESET_OUT_MCU}">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
     <net code="6" name="/~{RESET_OUT}">
       <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
@@ -770,23 +816,23 @@
     <net code="7" name="GND">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="C6" pin="2" pintype="passive"/>
       <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
-      <node ref="U6" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="8" name="GNDD">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="GND" pintype="passive"/>
-      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="9" name="Net-(D1-K)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
@@ -794,84 +840,85 @@
     </net>
     <net code="10" name="Net-(D2-K)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="U5" pin="4" pintype="output"/>
     </net>
     <net code="11" name="Net-(D3-K)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="U6" pin="4" pintype="output"/>
     </net>
-    <net code="12" name="Net-(Q1-E)">
-      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="U2" pin="2" pinfunction="C" pintype="passive"/>
+    <net code="12" name="Net-(Q1-D)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(U1-A)">
+    <net code="13" name="Net-(Q2-D)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q2-G)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="Vo" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q4-D)">
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q4-G)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="Vo" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(U1-A)">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(U2-A)">
+    <net code="18" name="Net-(U2-A)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(U3-Vo)">
-      <node ref="U3" pin="4" pinfunction="Vo" pintype="passive"/>
-      <node ref="U6" pin="2" pintype="input"/>
-    </net>
-    <net code="16" name="Net-(U4-Vo)">
-      <node ref="U4" pin="4" pinfunction="Vo" pintype="passive"/>
-      <node ref="U5" pin="2" pintype="input"/>
-    </net>
-    <net code="17" name="VCC">
+    <net code="19" name="VCC">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="C6" pin="1" pintype="passive"/>
       <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="Vdd" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="Vdd" pintype="passive"/>
-      <node ref="U6" pin="5" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="18" name="VCOM">
+    <net code="20" name="VCOM">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="Vdd" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="Vdd" pintype="passive"/>
-      <node ref="U5" pin="5" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="19" name="unconnected-(J1-Pin_1-Pad1)">
+    <net code="21" name="unconnected-(J1-Pin_1-Pad1)">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="20" name="unconnected-(J1-Pin_3-Pad3)">
+    <net code="22" name="unconnected-(J1-Pin_3-Pad3)">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="21" name="unconnected-(J1-Pin_4-Pad4)">
+    <net code="23" name="unconnected-(J1-Pin_4-Pad4)">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="22" name="unconnected-(J1-Pin_7-Pad7)">
+    <net code="24" name="unconnected-(J1-Pin_7-Pad7)">
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="23" name="unconnected-(J1-Pin_11-Pad11)">
+    <net code="25" name="unconnected-(J1-Pin_11-Pad11)">
       <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
-    </net>
-    <net code="24" name="unconnected-(U5-NC-Pad1)">
-      <node ref="U5" pin="1" pinfunction="NC" pintype="free"/>
-    </net>
-    <net code="25" name="unconnected-(U6-NC-Pad1)">
-      <node ref="U6" pin="1" pinfunction="NC" pintype="free"/>
     </net>
   </nets>
 </export>

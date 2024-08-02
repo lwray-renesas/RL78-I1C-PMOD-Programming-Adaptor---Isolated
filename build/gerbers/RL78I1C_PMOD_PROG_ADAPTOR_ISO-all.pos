@@ -1,32 +1,34 @@
-### Footprint positions - created on Thu Jul 25 14:24:38 2024 ###
+### Footprint positions - created on Fri Aug  2 12:56:12 2024 ###
 ### Printed by KiCad version 7.0.10
 ## Unit = mm, Angle = deg.
 ## Side : All
-# Ref     Val           Package                                           PosX       PosY       Rot  Side
-J2        RL78/I1C_5P   PinHeader_1x05_P2.54mm_Vertical                46.5000    20.0750  180.0000  bottom
-C1        100n          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    33.2500    23.9500  -90.0000  top
-C2        100n          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    19.6500    17.9500   90.0000  top
-C3        100n          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    19.6500    11.9500   90.0000  top
-C4        100n          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    33.3500     6.0000  -90.0000  top
-C5        100n          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    36.0000     6.0000  -90.0000  top
-C6        100n          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    17.8000    11.9000   90.0000  top
-D1        CDBA340L-G    D_SMA                                          38.6500    24.0000    0.0000  top
-D2        CDBA340L-G    D_SMA                                          38.7500    10.1500    0.0000  top
-D3        CDBA340L-G    D_SMA                                          13.5000     7.0000  -90.0000  top
-J1        E2_Lite_14P   E2_Lite_14P                                     6.9400     7.1800  180.0000  top
-Q1        MMBT3906-7-F  SOT-23_Handsoldering                           37.9500    14.3500    0.0000  top
-R1        4k7           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    16.0000    22.0500  -90.0000  top
-R2        270R          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    17.8000    22.0500   90.0000  top
-R3        270R          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    36.0000    18.0500  -90.0000  top
-R4        4k7           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    37.6500    18.0500  -90.0000  top
-R5        270R          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    43.5000    14.4375  -90.0000  top
-R6        4k7           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    41.8500    14.4375  -90.0000  top
-R7        4k7           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    16.0000    17.9500  -90.0000  top
-R8        270R          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    17.8000    17.9500  -90.0000  top
-U1        RV1S9060A     RV1S9060A                                      26.5000    23.9750    0.0000  top
-U2        RV1S9060A     RV1S9060A                                      26.5000    17.9750  180.0000  top
-U3        RV1S9060A     RV1S9060A                                      26.5000    11.9750  180.0000  top
-U4        RV1S9060A     RV1S9060A                                      26.5000     5.9750    0.0000  top
-U5        SN74LVC1G17   SOT-23-5_HandSoldering                         39.5000     6.0000    0.0000  top
-U6        SN74LVC1G17   SOT-23-5_HandSoldering                         14.2000    13.7000  180.0000  top
+# Ref     Val          Package                                           PosX       PosY       Rot  Side
+J2        RL78/I1C_5P  PinHeader_1x05_P2.54mm_Vertical                46.5000    20.0750  180.0000  bottom
+C1        100n         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    33.2500    23.9500  -90.0000  top
+C2        100n         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    19.6500    17.9500   90.0000  top
+C3        100n         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    19.6500    11.9500   90.0000  top
+C4        100n         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    33.3500     6.0000  -90.0000  top
+D1        BAT43W-TP    D_SOD-123                                      37.3000    24.0000    0.0000  top
+D2        BAT43W-TP    D_SOD-123                                      34.4000    11.9000   90.0000  top
+D3        BAT43W-TP    D_SOD-123                                      18.5000     6.0000  -90.0000  top
+J1        E2_Lite_14P  E2_Lite_14P                                     6.9400     7.1800  180.0000  top
+Q1        BSS84        SOT-23                                         41.5000    18.4000  180.0000  top
+Q2        BSS84        SOT-23                                         14.5000    11.6000    0.0000  top
+Q3        BSS123       SOT-23                                         14.5375     7.6500    0.0000  top
+Q4        BSS84        SOT-23                                         38.2000     6.2000    0.0000  top
+Q5        BSS123       SOT-23                                         38.2000    10.2000  180.0000  top
+R1        4k7          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    16.0000    22.0500  -90.0000  top
+R2        270R         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    17.8000    22.0500   90.0000  top
+R3        270R         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    36.1000    18.4000  -90.0000  top
+R4        4k7          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    37.9000    18.4000  -90.0000  top
+R5        270R         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    40.6000    14.3000  -90.0000  top
+R6        4k7          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    42.5000    14.3000  -90.0000  top
+R7        220R         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    17.7000    11.9500   90.0000  top
+R8        4k7          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    16.0000    17.9875  -90.0000  top
+R9        270R         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    17.8000    17.9875  -90.0000  top
+R10       220R         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    41.9000     6.1000  -90.0000  top
+U1        RV1S9060A    RV1S9060A                                      26.5000    23.9750    0.0000  top
+U2        RV1S9060A    RV1S9060A                                      26.5000    17.9750  180.0000  top
+U3        RV1S9060A    RV1S9060A                                      26.5000    11.9750  180.0000  top
+U4        RV1S9060A    RV1S9060A                                      26.5000     5.9750    0.0000  top
 ## End
