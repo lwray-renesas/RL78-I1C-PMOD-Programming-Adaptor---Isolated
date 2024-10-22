@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Users\a5126135\Documents\EMS\RL78\Adaptors\RL78I1C_PMOD_PROG_ADAPTOR_ISO\RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch</source>
-    <date>02/08/2024 12:07:14</date>
+    <date>22/10/2024 16:00:29</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>RL78/I1C Programming Adaptor - Isolated</title>
         <company>Renesas Electronics Europe</company>
-        <rev>0</rev>
-        <date>2024-02-13</date>
+        <rev>1.00</rev>
+        <date>2024-10-22</date>
         <source>RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch</source>
         <comment number="1" value="Author: Louis Wray"/>
         <comment number="2" value=""/>
@@ -117,28 +117,9 @@
       <property name="ki_description" value="60V 15mA Schottky diode, DO-35"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d8402ccb-5959-4753-bbb8-3e2fec02564c</tstamps>
-    </comp>
-    <comp ref="D2">
-      <value>BAT43W-TP</value>
-      <footprint>0_Common:D_SOD-123</footprint>
-      <fields>
-        <field name="Digikey p/n">BAT43WTPMSCT-ND</field>
-        <field name="Manufacturer">Micro Commercial Co</field>
-        <field name="Manufacturer p/n">BAT43W-TP</field>
-      </fields>
-      <libsource lib="0_Diode" part="BAT43W-TP" description="60V 15mA Schottky diode, DO-35"/>
-      <property name="Digikey p/n" value="BAT43WTPMSCT-ND"/>
-      <property name="Manufacturer p/n" value="BAT43W-TP"/>
-      <property name="Manufacturer" value="Micro Commercial Co"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
-      <property name="ki_description" value="60V 15mA Schottky diode, DO-35"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/" tstamps="/"/>
       <tstamps>12ed497a-f588-4a4b-9589-dd8dba651e09</tstamps>
     </comp>
-    <comp ref="D3">
+    <comp ref="D2">
       <value>BAT43W-TP</value>
       <footprint>0_Common:D_SOD-123</footprint>
       <fields>
@@ -369,6 +350,26 @@
       <tstamps>817ea44f-7a9f-4d61-9d5e-f77ae8f49e6f</tstamps>
     </comp>
     <comp ref="R5">
+      <value>1k</value>
+      <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey p/n">311-1.00KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer p/n">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="0_Resistor" part="R_0603_1k" description="Resistor"/>
+      <property name="Digikey p/n" value="311-1.00KHRCT-ND"/>
+      <property name="Manufacturer p/n" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RL78I1C_PMOD_PROG_ADAPTOR_ISO.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>619bdade-960a-40ec-ac8e-d37169b77281</tstamps>
+    </comp>
+    <comp ref="R6">
       <value>270R</value>
       <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -387,7 +388,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>82a9e172-f4e7-468d-8ea9-48be7f8b3486</tstamps>
     </comp>
-    <comp ref="R6">
+    <comp ref="R7">
       <value>4k7</value>
       <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -406,7 +407,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0083a476-bbfd-4e59-a6c4-96da46c4e0e6</tstamps>
     </comp>
-    <comp ref="R7">
+    <comp ref="R8">
       <value>220R</value>
       <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -425,7 +426,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>da694f76-376e-41bb-8109-222eecc5a92b</tstamps>
     </comp>
-    <comp ref="R8">
+    <comp ref="R9">
       <value>4k7</value>
       <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -444,7 +445,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>568f0f67-3af7-487b-9621-a594b87404a9</tstamps>
     </comp>
-    <comp ref="R9">
+    <comp ref="R10">
       <value>270R</value>
       <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -463,7 +464,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>77a10912-c2cc-4281-9a3b-3a2b9e38c802</tstamps>
     </comp>
-    <comp ref="R10">
+    <comp ref="R11">
       <value>220R</value>
       <footprint>0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -662,6 +663,26 @@
         <pin num="5" name="Vdd" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="0_Resistor" part="R_0603_1k">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">0_Common:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Digikey p/n">311-1.00KHRCT-ND</field>
+        <field name="Manufacturer p/n">RC0603FR-071KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="0_Resistor" part="R_0603_220R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -783,23 +804,24 @@
   </libraries>
   <nets>
     <net code="1" name="/TOOL0">
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="C" pintype="passive"/>
     </net>
     <net code="2" name="/TOOL0_MCU">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="C" pintype="passive"/>
     </net>
     <net code="3" name="/~{RESET_IN_MCU}">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="Vo" pintype="passive"/>
     </net>
     <net code="4" name="/~{RESET_IN}">
       <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="Vo" pintype="passive"/>
     </net>
     <net code="5" name="/~{RESET_OUT_MCU}">
@@ -820,7 +842,7 @@
       <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
     </net>
@@ -829,26 +851,26 @@
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="GND" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="GND" pintype="passive"/>
     </net>
     <net code="9" name="Net-(D1-K)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="Vo" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="A" pintype="passive"/>
     </net>
     <net code="10" name="Net-(D2-K)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="U3" pin="1" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(D3-K)">
-      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J1-Pin_4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
     <net code="12" name="Net-(Q1-D)">
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
@@ -857,7 +879,7 @@
     <net code="13" name="Net-(Q2-D)">
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
     </net>
     <net code="14" name="Net-(Q2-G)">
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
@@ -866,7 +888,7 @@
     <net code="15" name="Net-(Q4-D)">
       <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
     </net>
     <net code="16" name="Net-(Q4-G)">
       <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
@@ -887,8 +909,8 @@
       <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="Vdd" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="Vdd" pintype="passive"/>
@@ -900,8 +922,8 @@
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="Vdd" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="Vdd" pintype="passive"/>
     </net>
@@ -911,13 +933,10 @@
     <net code="22" name="unconnected-(J1-Pin_3-Pad3)">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="23" name="unconnected-(J1-Pin_4-Pad4)">
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
-    </net>
-    <net code="24" name="unconnected-(J1-Pin_7-Pad7)">
+    <net code="23" name="unconnected-(J1-Pin_7-Pad7)">
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="25" name="unconnected-(J1-Pin_11-Pad11)">
+    <net code="24" name="unconnected-(J1-Pin_11-Pad11)">
       <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
   </nets>
