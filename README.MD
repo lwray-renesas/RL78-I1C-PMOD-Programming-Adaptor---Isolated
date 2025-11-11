@@ -11,6 +11,10 @@ Gerbers, Schematics and BoM for the latest revision are included in the reposito
 
 ## Getting Started
 
+### Modifications
+When using the RL78/I1C PMOD's their isolation transformer drive resistors must be updated to 1k8, this is R18 and R19.
+This is necessary because this dongle pulls extra current from the PMOD power supply which, with the default resistors, the circuit cannot supply and it causes a VDD dip.
+
 ### Dependencies
 
 * KiCad 7.0
